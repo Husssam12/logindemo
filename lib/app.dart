@@ -19,7 +19,7 @@ class _AppState extends State<App> {
     return AppMangerWidget(
       navigatorKey: _key,
       child: ScreenUtilInit(
-        builder: (c) => MaterialApp(
+        builder: (c, _) => MaterialApp(
           navigatorKey: _key,
           title: 'Flutter Login Demo',
           theme: theme,
